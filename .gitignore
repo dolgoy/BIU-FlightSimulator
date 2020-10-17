@@ -30,7 +30,7 @@
 *.exe
 *.out
 *.app
-
+*.out
 # Build File Ignore
 /build
 /.vscode
