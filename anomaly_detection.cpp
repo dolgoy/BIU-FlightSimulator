@@ -4,9 +4,8 @@
  * Author: 311319099
  */
 
-#include <math.h>
-#include "anomaly_detection_util.h"
 
+#include "anomaly_detection_util.h"
 
 float avg(float* x, int size){
 	float temp_avg = 0.0;
@@ -18,7 +17,7 @@ float avg(float* x, int size){
 
 
 // returns the variance of X and Y
-float var(float* x, int size){
+float var(float* x, int size) {
 	float average = avg(x, size);
     float tempVariance = 0.0;
     for(int i = 0; i < size; i++) {
